@@ -21,7 +21,7 @@ const FrGround = () => {
   ]
   const ref = useRef();
   return (
-    <div ref={ref} className='fixed flex items-start top-0 w-full h-full  '>
+    <div ref={ref} className='fixed flex  items-start top-0 w-full h-full  '>
       {data.map((item,index)=>(
         <Card key={index} reference={ref} data={item}/>
       ))}
