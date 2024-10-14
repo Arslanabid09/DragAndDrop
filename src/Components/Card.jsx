@@ -10,7 +10,7 @@ const Card = ({ data, reference }) => {
       whileDrag={{ scale: 1.1 }}
       dragConstraints={reference}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 50 }}
-      className=" h-auto   md:w-[25%] rounded-[3rem] m-5 bg-zinc-900 text-slate-100 overflow-hidden flex  flex-col  gap-10 cursor-pointer"
+      className=" h-auto   md:w-[22%] rounded-[3rem] m-5 bg-zinc-900 text-slate-100 overflow-hidden flex  flex-col  gap-10 cursor-pointer"
     >
       {/* Icon */}
       <span className="px-5 py-3 sm:px-10 sm:py-5">
